@@ -7,8 +7,8 @@
     <h1>Data Table</h1>
     <?php
     $servername = "localhost";
-    $username = "user22";
-    $password = "22bolo";
+    $username = "root";
+    $password = "mysql";
     $dbname = "db22";
     $first = '';
     $last = '';
