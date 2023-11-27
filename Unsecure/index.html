@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/main.js" defer></script>
+    <title>CSCI 331 Final Project</title>
+</head>
+
+<body>
+    <h1>Secure Website</h1>
+
+    <div id="apiData">
+        <h2 id="createAccount">Create an Account</h2>
+        <div id="btns">
+            <form action="php/table.php" method="post"  style="display:inline;">  
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </div>
+    </div>
+    <p>Already have an Account? Log In <button onclick="redirectToLogin()">Here!</button></p>
+</body>
+
+</html>
