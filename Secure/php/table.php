@@ -103,7 +103,7 @@
         <script>
             function redirectToLogin() {
                 // Redirect to Login HTML page
-                window.location.href = 'Login.html';
+                window.location.href = '../Login.html';
             }
         </script>
     </p>
