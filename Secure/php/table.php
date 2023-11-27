@@ -23,10 +23,10 @@
     die("Connection failed: " . $conn->connect_error);
     }
 
-    if ($_SERVER["REQUEST_METHOD"] === "GET") {
-        $first = $_GET["fname"];
-        $last = $_GET["lname"];
-        $pass = $_GET["password"];
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+        $first = $_POST["fname"];
+        $last = $_POST["lname"];
+        $pass = $_POST["password"];
     }
 
     $sql = "INSERT INTO testing (fname, lname, password) VALUES ('$first', '$last', '$pass')";
