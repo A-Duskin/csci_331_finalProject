@@ -15,3 +15,8 @@ Repository to house Web Dev Final Project
 <p>Changed 'testing' names to index.html and table.php</p>
 <p>Added JS functions for page redirect and Login protocols</p>
 <p>All files related to secure website are located in Secure folder</p>
+
+### Brian's Notes
+#### Third push
+<p>Copied the completed Secure folder, then adjusted colors for differentiation.</p>
+<p>Adjusted the SQL in Login.php to use simple concatenation, which is unsecure.</p>
