@@ -26,7 +26,9 @@ Repository to house Web Dev Final Project
 
 ### Fourth Push 
 - UI stable
+- UI greenlit and ready for conversion
 - Data table now after login
+- Login.php replaced by Display.php
 
 ## Brian's Notes
 ### First push
