@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const loginForm = document.getElementById('login');
 
     loginForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent the default form submission
+        // event.preventDefault(); // Prevent the default form submission
 
         const formData = new FormData(loginForm);
 
-        fetch('login.php', {
+        fetch('display.php', {
             method: 'POST',
             body: formData
         })
