@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="create.js" defer></script>
+    <!-- <script type="text/javascript" src="login.js" defer></script> -->
+    <title>Create an Account</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <h1 class="title">Create Account</h1>
+                <form class="create" id="create" action="table.php" method="post">
+                    <div class="create__field">
+                        <i class="create__icon fas fa-user"></i>
+                        <input type="text" class="create__input" name="fname" placeholder="User name / First name">
+                    </div>
+                    <div class="create__field">
+                        <i class="create__icon fas fa-user"></i>
+                        <input type="text" class="create__input" name="lname" placeholder="Last name">
+                    </div>
+                    <div class="create__field">
+                        <i class="create__icon fas fa-lock"></i>
+                        <input type="password" class="create__input" name="password" placeholder="Password">
+                    </div>
+                    <button class="button create__submit" id="button create__submit">
+                        <span class="button__text">Create Account</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>		
+                    <button type="submit" class="button login__submit" id="button login__submit">
+                        <span class="button__text">Log In</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>		
+                </form>
+                <div class="ApplicationMessage">
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>		
+        </div>
+    </div>
+</body>
+</html>
