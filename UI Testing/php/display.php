@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show Account</title>
     <link rel="stylesheet" href="../css/table.css">
+    <link rel="text/javascript" href="../js/create.js">
 </head>
 <body>
     <div class="container">
@@ -61,6 +62,12 @@
                     $conn->close();
                     ?>
                 </div>
+                <form class="create" id="create" action="../php/table.php" method="post">
+                <button type="submit" class="button login__submit" id="button login__submit">
+                        <span class="button__text">Log Out</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                </button>	
+                </form>	
             </div>
             <div class="screen__background">
                 <span class="screen__background__shape screen__background__shape7"></span>
