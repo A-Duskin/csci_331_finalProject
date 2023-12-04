@@ -16,7 +16,15 @@ Repository to house Web Dev Final Project
 <p>Added JS functions for page redirect and Login protocols</p>
 <p>All files related to secure website are located in Secure folder</p>
 
+#### Third (Major) Push
+<p>Added new folder "UI Testing"</p>
+<p>Added Sample UI based on Secure folder</p>
+<p>Buttons are now type button not type input</p>
+<p>All Javascript is now split by page</p>
+<p>Currently a Sample Interface, only houses Create Account and Log In</p>
+<p>Datatable temporarily removed</p>
+
 ### Brian's Notes
-#### Third push
+#### First push
 <p>Copied the completed Secure folder, then adjusted colors for differentiation.</p>
 <p>Adjusted the SQL in Login.php to use simple concatenation, which is unsecure.</p>
