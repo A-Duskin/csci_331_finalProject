@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault(); // Prevent the default button click behavior
 
         // Redirect to Login.html
-        window.location.href = 'Login.html';
+        window.location.href = '../html/Login.html';
     });
 });

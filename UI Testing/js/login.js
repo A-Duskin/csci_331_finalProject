@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const formData = new FormData(loginForm);
 
-        fetch('display.php', {
+        fetch('../php/display.php', {
             method: 'POST',
             body: formData
         })
@@ -42,6 +42,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Listen for the 'create' event and redirect to index.html
     document.addEventListener('create', function () {
-        window.location.href = 'index.html';
+        window.location.href = '../html/index.html';
     });
 });
