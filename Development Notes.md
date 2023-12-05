@@ -38,6 +38,7 @@ Repository to house Web Dev Final Project
 - Changed 'UI Testing' File Name to 'FinalProject'
 - Create Account fields MUST be not null to create an account
 - 'Select Version' buttons appear on Create Account and Log In page
+- Log Out now uses its own logic for redirect
 
 ## Brian's Notes
 ### First push
