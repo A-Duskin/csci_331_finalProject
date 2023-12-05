@@ -40,6 +40,14 @@ Repository to house Web Dev Final Project
 - 'Select Version' buttons appear on Create Account and Log In page
 - Log Out now uses its own logic for redirect
 
+### Sixth Push (PROJECT COMPLETE)
+- Project is complete per previous scope
+- Unsecure is now live on UI
+- Beginner's Guide is live
+    - Explains basic sql injections
+    - Provides basic SQL injections
+- Unsecure re-colored to distinguish itself
+
 ## Brian's Notes
 ### First push
 - Copied the completed Secure folder, then adjusted colors for differentiation.

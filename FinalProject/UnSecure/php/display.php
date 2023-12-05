@@ -32,13 +32,9 @@
                         $first = $_POST["fname"];
                         $pass = $_POST["password"];
                         
-                        // Prepared statement to prevent SQL injection
-                        $stmt = $conn->prepare("SELECT * FROM testing WHERE fname = ? AND password = ?");
-                        $stmt->bind_param("ss", $first, $pass);
-                        // Execute the prepared statement
-                        $stmt->execute();
-                        $result = $stmt->get_result();
-
+                        // Fetch records matching the provided name and password along with 'lname'
+                        $sql = "SELECT * FROM testing WHERE fname = '". $first ."' AND password = '".$pass."'";
+                        $result = $conn->query($sql);
 
                         if ($result->num_rows > 0) {
                             echo "<table>";

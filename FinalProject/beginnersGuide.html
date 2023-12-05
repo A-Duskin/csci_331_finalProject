@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./redirect.js"></script>
+    <title>The Beginner's Guide</title>
+</head>
+<body>
+    <div class="container">
+        <div class="beginners__screen">
+            <div class="screen__content">
+                <h1 class="title__custom">The Beginner's Guide</h1>
+                <p class="explain">SQL injection is a cybersecurity attack that occurs when an attacker inserts or "injects" malicious SQL code into input 
+                    fields or parameters used in SQL queries. This exploitation takes advantage of inadequate input validation or improper 
+                    handling of user-supplied data in an application's input forms or URLs.</p>
+                <p class="explain"> When a web application directly incorporates user input into SQL queries without proper validation or sanitization, an 
+                    attacker can manipulate the input fields to alter the logic of the SQL query. This can lead to unauthorized access, data 
+                    leakage, data manipulation, or even the complete deletion of data from the database.</p>
+                <p class="explain">New? Try These:<br>UserName = [Name]'#<br>Password = ' OR 1=1#</p>
+                <p class="explain">Both of these methods require a correct UserName<br>The UserName method does not require a password</p>
+                <h2 class="title__custom">Feel Like an Expert? Return</h2>
+                <form class="create" id="create" method="post">
+                    <button class="button selection" id="button selection">
+                        <span class="button__text">Select Version</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>			
+                </form>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape__custom"></span>
+            </div>		
+        </div>
+    </div>
+</body>
+</html>
