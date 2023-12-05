@@ -29,6 +29,13 @@ Repository to house Web Dev Final Project
 - UI greenlit and ready for conversion
 - Data table now after login
 - Login.php replaced by Display.php
+- Added file structure for organization
+- Log Out button 
+
+### Fifth Push (UI UPDATE)
+- Added face page to switch between secure and unsecure html
+- Secure fully integrated into UI
+- Changed 'UI Testing' File Name to 'FinalProject'
 
 ## Brian's Notes
 ### First push

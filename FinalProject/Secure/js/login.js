@@ -42,6 +42,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Listen for the 'create' event and redirect to index.html
     document.addEventListener('create', function () {
-        window.location.href = '../html/index.html';
+        window.location.href = '../html/create.html';
     });
 });

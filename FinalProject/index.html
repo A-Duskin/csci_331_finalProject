@@ -1,0 +1,37 @@
+<!-- Face Page to Pick Secure/Unsecure Versions -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Secure/css/main.css">
+    <script type="text/javascript" src="./Secure/js/redirect.js" defer></script>
+    <!-- <script type="text/javascript" src="login.js" defer></script> -->
+    <title>Select HTML Version</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <h1 class="title">Select Version</h1>
+                <form class="create" id="create" action="php/redirect.php" method="post">
+                    <button class="button secure" id="button secure">
+                        <span class="button__text">Secure</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>		
+                    <button type="submit" class="button unsecure" id="button unsecure">
+                        <span class="button__text">Unsecure</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>		
+                </form>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>		
+        </div>
+    </div>
+</body>
+</html>

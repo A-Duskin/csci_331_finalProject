@@ -141,7 +141,8 @@ body {
 }
 
 .login__submit,
-.create__submit {
+.create__submit,
+.version__select {
 	background: #fff;
 	font-size: 14px;
 	margin-top: 30px;
@@ -159,12 +160,44 @@ body {
 	transition: .2s;
 }
 
+.secure,
+.unsecure {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.secure {
+	margin-top:50px;
+}
+
 .login__submit:active,
 .login__submit:focus,
 .login__submit:hover,
 .create__submit:active,
 .create__submit:focus,
-.create__submit:hover {
+.create__submit:hover,
+.secure__submit:active,
+.secure__submit:focus,
+.secure__submit:hover,
+.unsecure__submit:active,
+.unsecure__submit:focus,
+.unsecure__submit:hover,
+.version__select:active,
+.version__select:focus,
+.version__select:hover {
 	border-color: #6A679E;
 	outline: none;
 }

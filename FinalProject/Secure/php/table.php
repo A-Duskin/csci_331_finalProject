@@ -31,7 +31,7 @@
         if ($conn->query($sql) === TRUE) {
             echo '<script>alert("Action Successful, Redirecting to Log In"); window.location.href = "../html/Login.html";</script>';
         } else {
-            echo '<script>alert("Unable to Create User, Returning to Create Window"); window.location.href = "../html/index.html";</script>';
+            echo '<script>alert("Unable to Create User, Returning to Create Window"); window.location.href = "../html/create.html";</script>';
         }
     }
     $conn->close();
