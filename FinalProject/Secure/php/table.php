@@ -26,7 +26,11 @@
         $last = $_POST["lname"];
         $pass = $_POST["password"];
 
-        $sql = "INSERT INTO testing (fname, lname, password) VALUES ('$first', '$last', '$pass')";
+        if (($first != null) && ($pass != null) && ($last != null)){
+            $sql = "INSERT INTO testing (fname, lname, password) VALUES ('$first', '$last', '$pass')";
+        } else {
+            echo '<script>alert("All Fields Must Have A Value, Returning to Create Window"); window.location.href = "../html/create.html";</script>';
+        }
 
         if ($conn->query($sql) === TRUE) {
             echo '<script>alert("Action Successful, Redirecting to Log In"); window.location.href = "../html/Login.html";</script>';

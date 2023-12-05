@@ -44,4 +44,20 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('create', function () {
         window.location.href = '../html/create.html';
     });
+
+    // Add an event listener for the 'verison' button
+    const versionButton = document.getElementById('button version__select');
+    versionButton.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default button click behavior
+
+        const createEvent = new Event('version');
+        document.dispatchEvent(createEvent);
+    });
+
+    // Listen for the 'create' event and redirect to index.html
+    document.addEventListener('version', function () {
+        window.location.href = '../../index.html';
+    });
+
 });
+

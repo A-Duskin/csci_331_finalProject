@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const loginButton = document.getElementById('button version__select');
+    const versionButton = document.getElementById('button version__select');
 
-    loginButton.addEventListener('click', function (event) {
+    versionButton.addEventListener('click', function (event) {
         event.preventDefault(); // Prevent the default button click behavior
 
         // Redirect to index.html

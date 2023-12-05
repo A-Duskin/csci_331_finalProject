@@ -36,6 +36,8 @@ Repository to house Web Dev Final Project
 - Added face page to switch between secure and unsecure html
 - Secure fully integrated into UI
 - Changed 'UI Testing' File Name to 'FinalProject'
+- Create Account fields MUST be not null to create an account
+- 'Select Version' buttons appear on Create Account and Log In page
 
 ## Brian's Notes
 ### First push

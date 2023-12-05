@@ -62,7 +62,7 @@
                     $conn->close();
                     ?>
                 </div>
-                <form class="create" id="create" action="../php/table.php" method="post">
+                <form class="create" id="create" action="../php/redirect.php" method="post">
                 <button type="submit" class="button login__submit" id="button login__submit">
                         <span class="button__text">Log Out</span>
                         <i class="button__icon fas fa-chevron-right"></i>
