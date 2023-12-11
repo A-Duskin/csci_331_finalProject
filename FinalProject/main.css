@@ -238,3 +238,9 @@ body {
     padding-top: 10px;
     color: #4C489D;
 }
+
+footer {
+	padding: 10px;
+	color: #FFF;
+	text-align: center;
+}

@@ -48,6 +48,9 @@ Repository to house Web Dev Final Project
     - Provides basic SQL injections
 - Unsecure re-colored to distinguish itself
 
+### Seventh Push
+- Added footers for every page according to assignment rubric
+
 ## Brian's Notes
 ### First push
 - Copied the completed Secure folder, then adjusted colors for differentiation.

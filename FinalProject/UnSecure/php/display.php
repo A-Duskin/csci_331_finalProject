@@ -81,4 +81,7 @@
         </div>
     </div>
 </body>
+<footer>
+    <p>Page, Styling, Buttons and Logic created by Aurora Duskin</p>
+</footer>
 </html>
