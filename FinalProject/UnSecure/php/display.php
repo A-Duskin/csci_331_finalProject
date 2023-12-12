@@ -82,6 +82,7 @@
     </div>
 </body>
 <footer>
-    <p>Page, Styling, Buttons and Logic created by Aurora Duskin</p>
+    <p>Page, Buttons, and Logic created by Brian Schumitz</p>
+    <p>Styling created by Aurora Duskin</p>
 </footer>
 </html>
